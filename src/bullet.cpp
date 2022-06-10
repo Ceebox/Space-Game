@@ -4,6 +4,7 @@
 //Constructor
 Bullet::Bullet(Vector2 spawnPosition)
 {
+    //Init
     gameObjects.push_back(this); //Add to gameobjects
     bulletCollisionObjects.push_back(this); //Add to collision
 
